@@ -6,11 +6,13 @@ public class skloiberZimtstange : MonoBehaviour
 {
     public bool treffer = false;
     public skloiberManager manager;
-    
-   
+    public AudioClip soundToPlay;
+
+    private AudioSource audioSource;
+
     public void Start()
     {
-    
+        audioSource = GetComponent<AudioSource>();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -20,6 +22,8 @@ public class skloiberZimtstange : MonoBehaviour
             
             manager.points ++;
             skloiberManager.score = manager.points * 5;
+
+            audioSource.PlayOneShot(soundToPlay);
 
             Destroy(gameObject);
             
