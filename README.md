@@ -9,12 +9,11 @@ Meine Spielidee ist das es in meinen Christkindlstand eine kleine Box gibt mit Z
 
 
 Mein Spiel muss folgende syntaktischen Elemente beinhalten:
-
+  
   Array
   If Statements
-  Methoden 
-  
-  
+  Methoden
+
 
 Eingebungen Ja/Nein?
 
@@ -32,9 +31,13 @@ Developmentplattform :
     
 Schwierigkeiten:
   
-Allen vorraus waren es am meisten nur Coding Schwierigkeiten wie: -- Score berechnen --Sound einbinden --Das Verwenden von Arrays (Die beim Coding wegen ihrer [] Klammer probleme geliefert haben -- Die Collion und Rigidbody Zusammenspiel bei dem ich mir wirklich lange    gebraucht habe da ich die Unity eigene Seite von Ihnen nicht verstanden habe. Den bei mir sind teilweise einfach durchgefallen oder was auch komisch war und mich viel Zeit gekostet hat war die "OnCollisionEnter(Collision collision)" Funktion die bei mir etwas gebraucht hat bis sie funktioniert hat.
+Allen vorraus waren es am meisten nur Coding Schwierigkeiten wie: 
+  -- Score berechnen 
+  --Sound einbinden 
+  --Das Verwenden von Arrays (Die beim Coding wegen ihrer [] Klammer probleme geliefert haben 
+  -- Die Collion und Rigidbody Zusammenspiel bei dem ich mir wirklich lange    gebraucht habe da ich die Unity eigene Seite von Ihnen nicht verstanden habe. Den bei  mir sind teilweise einfach durchgefallen oder was auch komisch war und mich viel Zeit gekostet hat war die "OnCollisionEnter(Collision collision)" Funktion die bei mir etwas gebraucht hat bis sie funktioniert hat.
   
   
 Jetzige Interaktion 
-    Gravitation --> die Zimtstangen fallen einfach in oder neben die Tasse.
+  Gravitation --> die Zimtstangen fallen einfach in oder neben die Tasse.
     
